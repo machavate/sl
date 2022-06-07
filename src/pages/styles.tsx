@@ -5,7 +5,7 @@ export const Building = styled.div`
 `
 
 export const Container = styled.div`
-    ${Building} {
+    /* ${Building} {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -17,5 +17,6 @@ export const Container = styled.div`
             font-weight: bolder;
             font-size: 2rem;
         }
-    }
+    } */
 `
+

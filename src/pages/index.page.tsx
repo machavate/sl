@@ -1,12 +1,10 @@
-import { Container, Building } from "./styles"
+import Navbar from "../components/Navbar"
+import { Container } from "./styles"
 
 export default function Home() {
     return (
         <Container>
-            <Building>
-                <h1>SL Taxi services</h1>
-                <p>It is being built for you!</p>
-            </Building>
+            <Navbar />
         </Container>
     )
 }

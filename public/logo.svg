@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1235"
+   inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1237"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.3579016"
+     inkscape:cx="422.83359"
+     inkscape:cy="434.4965"
+     inkscape:window-width="1680"
+     inkscape:window-height="986"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true" />
+  <defs
+     id="defs1232">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15103">
+      <g
+         inkscape:label="Clip"
+         id="use15105"
+         style="fill:#ffb42a;fill-opacity:1">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:129.557px;line-height:1.25;font-family:sans-serif;fill:#ffb42a;fill-opacity:1;stroke:none;stroke-width:3.23894"
+           x="41.879601"
+           y="157.34496"
+           id="text16306"><tspan
+             id="tspan16304"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffb42a;fill-opacity:1;stroke-width:3.23894"
+             x="41.879601"
+             y="157.34496"
+             sodipodi:role="line">S</tspan></text>
+      </g>
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="119.48466"
+       y="118.25914"
+       id="text13632"><tspan
+         sodipodi:role="line"
+         id="tspan13630"
+         style="stroke-width:0.264583"
+         x="119.48466"
+         y="118.25914" /></text>
+    <g
+       id="g26447">
+      <path
+         id="path16412"
+         style="fill:#ffb42a;fill-opacity:1;stroke-width:0.999999"
+         d="M 402.94531 188.87109 A 221.99625 221.99625 0 0 0 180.94922 410.86719 A 221.99625 221.99625 0 0 0 402.94531 632.86328 A 221.99625 221.99625 0 0 0 624.94141 410.86719 A 221.99625 221.99625 0 0 0 402.94531 188.87109 z M 402.94531 224.07031 A 186.79693 186.79693 0 0 1 589.74219 410.86719 A 186.79693 186.79693 0 0 1 402.94531 597.66406 A 186.79693 186.79693 0 0 1 216.14844 410.86719 A 186.79693 186.79693 0 0 1 402.94531 224.07031 z "
+         transform="scale(0.26458333)" />
+      <path
+         id="path19317"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         d="m 47.881315,108.70861 a 58.736507,58.736507 0 0 0 58.733885,58.66929 58.736507,58.736507 0 0 0 58.73388,-58.66929 h -9.31313 A 49.423354,49.423354 0 0 1 106.6152,158.06477 49.423354,49.423354 0 0 1 57.194441,108.70861 Z" />
+    </g>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke-width:0.159382"
+       id="path26471"
+       cx="106.61261"
+       cy="108.70861"
+       r="14.766972" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.1628px;line-height:1.25;font-family:sans-serif;fill:#ffb42a;fill-opacity:1;stroke:none;stroke-width:0.404071"
+       x="95.327065"
+       y="114.49344"
+       id="text27239"><tspan
+         sodipodi:role="line"
+         id="tspan27237"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';fill:#ffb42a;fill-opacity:1;stroke-width:0.404071"
+         x="95.327065"
+         y="114.49344">SL</tspan></text>
+  </g>
+</svg>

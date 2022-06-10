@@ -6,11 +6,13 @@ export const Container = styled.div`
 
    
 
-    @media(min-width: 720px) {
-        Container{
-            display: flex;
-        }
-    }
+  @media (min-width: 768px) {
+    
+  }
+
+  @media (min-width: 1024px) {
+ 
+  }
     
     `
 
@@ -33,6 +35,19 @@ border: 1px solid #CCCCCC;
     border-radius: 1rem;
     margin: 1rem;
     padding: 1rem;
+
+
+  @media (min-width: 768px) {
+    Grid{
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1024px) {
+    Grid{
+        flex-direction: row;
+    }
+}
     
 `
 

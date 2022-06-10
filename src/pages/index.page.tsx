@@ -1,12 +1,15 @@
 import Booking from "../components/Booking"
-import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
+import Services from "../components/Services"
+import Tarifs from "../components/Tarifs"
 import { Container } from "./styles"
 
 export default function Home() {
     return (
         <Container>
-             <Navbar />
-            <Booking/>
+             <Services />
+             <Booking/>
+             <Tarifs/>
         </Container>
     )
 }

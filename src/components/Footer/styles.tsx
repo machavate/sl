@@ -28,7 +28,7 @@ export const Main = styled.div`
 `
 
 export const Brand = styled.div`
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -64,7 +64,7 @@ export const Other = styled.div`
         
         ul {
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: space-around;
         }
     }
 `

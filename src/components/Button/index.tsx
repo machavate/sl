@@ -1,32 +1,21 @@
-import React, { ButtonHTMLAttributes } from "react";
-import { ButtonContainer, LinkContainer } from "./styles";
+import { ButtonHTMLAttributes, Component, ReactNode } from "react";
+import { Container } from "./styles";
 
-interface ButtonTypes {
-    type?: 'submit' | 'reset' | 'button' | 'link'
+export interface ButtonProps extends ButtonHTMLAttributes<any> {
+
 }
 
-type ButtonProps = ButtonTypes & Pick<ButtonHTMLAttributes<any>, Exclude<keyof ButtonHTMLAttributes<any>, keyof ButtonTypes>>
-
-export default class Button extends React.Component<ButtonProps> {
+export default class Button extends Component<ButtonProps> {
 
     constructor(props: ButtonProps) {
         super(props)
     }
 
-    render(): React.ReactNode {
-
-        if (this.props.type === 'link') {
-            return (
-                <LinkContainer>
-
-                </LinkContainer>
-            )
-        }
-
+    render(): ReactNode {
         return (
-            <ButtonContainer>
-
-            </ButtonContainer>
+            <Container {...this.props}>
+                {this.props.children}
+            </Container>
         )
     }
 }

@@ -17,6 +17,9 @@ export const Grid = styled.div`
     }
 `
 export const Grids = styled.div`
+    @media(min-width: 720px) {
+        display: flex;
+    }
     
 `
 

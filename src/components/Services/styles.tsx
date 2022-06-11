@@ -1,20 +1,20 @@
 import styled from "styled-components";
 
+
+export const Width = {
+    desktop: "1080px",
+    tablet: "720px",
+    mobile: "1320px"
+}
+
 export const Container = styled.div`
     padding: 30px 0 100px;
     text-align: center;
-
-   
-
-  @media (min-width: 768px) {
     
-  }
 
-  @media (min-width: 1024px) {
- 
-  }
     
-    `
+`
+
 
 export const Title = styled.div`
         h2{
@@ -27,30 +27,56 @@ export const Title = styled.div`
         margin-top: 40px !important;
     }
         }
+
+    @media(min-width: 720px) {
+        
+    }
+`
+
+export const Grids = styled.div`
+    flex-direction: column;
+    
+
+    @media(min-width: 720px) {
+        display: flex;
+        flex-direction: row;
+    }
 `
 
 export const Grid = styled.div`
 
-border: 1px solid #CCCCCC;
+    border: 1px solid #CCCCCC;
     border-radius: 1rem;
     margin: 1rem;
     padding: 1rem;
 
-
-  @media (min-width: 768px) {
-    Grid{
+    ${Width.desktop} {
+        border: none;
         flex-direction: row;
+        display: grid;
     }
-}
 
-@media (min-width: 1024px) {
-    Grid{
+    ${Width.tablet} {
+
+    }   
+
+    @media(min-width: 720px){
         flex-direction: row;
-    }
 }
     
 `
 
 export const Image = styled.div`
-    
+     ${Width.desktop} {
+        width: 20px;
+        height: 20px;
+}
+
+${Width.tablet} {
+
+}
+
+@media(min-width: 720px){
+    width: 10px;
+}
 `

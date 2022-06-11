@@ -1,20 +1,22 @@
 import Button from '../Button'
-import { Container, FormGroup } from './styles'
+import Input  from '../Input'
+import { Container, Titles, Form } from './styles'
 
 export default function Booking() {
     return (
         <Container>
+            <Titles>
+                <h6>Choose your car</h6>
+                <h3><b>book taxi</b> now</h3>
+            </Titles>
             <form>
-                <FormGroup>
-                    <input type="text" id="from" name="from" value="" placeholder="From Address..." />
-                </FormGroup>
-                <FormGroup>
-                    <input type="text" id="to" name="to" value="" placeholder="To..." />
-                </FormGroup>
-                <FormGroup>
-                    <input type="text" id="phone" name="phone" value="" placeholder="Phone Number" aria-required="true" />
-                </FormGroup>
-                <input type="text" id="text" name="text" value="" placeholder="Date and Time" />
+                <Form>
+                    <Input type={'email'} placeholder={'Email'} />
+                    <Input type={'text'} placeholder={'phone number'} />
+                    <Input type={'text'} placeholder={'From'} />
+                    <Input type={'text'} placeholder={'to'} />
+                    <Button>Book Now</Button>
+                </Form>
             </form>
         </Container>
     )

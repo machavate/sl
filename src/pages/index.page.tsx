@@ -10,6 +10,7 @@ export default function Home() {
              <Services />
              <Booking/>
              <Tarifs/>
+             <Footer/>
         </Container>
     )
 }

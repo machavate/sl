@@ -27,6 +27,9 @@ margin-top: 2rem;
     @media (min-width: 720px) {
         width: auto;
         flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         input {
             min-width: 10px;
         }
